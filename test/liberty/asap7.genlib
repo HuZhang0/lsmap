@@ -1,0 +1,764 @@
+# The genlib library "asap7.genlib" with 161 gates written by ABC on Thu Jul  4 11:15:52 2024
+GATE _const0_                      0.00  z=CONST0;                                                    
+GATE _const1_                      0.00  z=CONST1;                                                    
+GATE A2O1A1Ixp33_ASAP7_75t_L       0.00  Y=(!A1 * !B) + (!A2 * !B) + (!C);                            
+    PIN  A1  UNKNOWN   1 999    18.83     0.00    18.83     0.00
+    PIN  A2  UNKNOWN   1 999    19.24     0.00    19.24     0.00
+    PIN   B  UNKNOWN   1 999    16.79     0.00    16.79     0.00
+    PIN   C  UNKNOWN   1 999    15.59     0.00    15.59     0.00
+GATE A2O1A1O1Ixp25_ASAP7_75t_L     0.00  Y=(!A1 * !B * !D) + (!A2 * !B * !D) + (!C * !D);             
+    PIN  A1  UNKNOWN   1 999    23.55     0.00    23.55     0.00
+    PIN  A2  UNKNOWN   1 999    22.99     0.00    22.99     0.00
+    PIN   B  UNKNOWN   1 999    20.73     0.00    20.73     0.00
+    PIN   C  UNKNOWN   1 999    18.50     0.00    18.50     0.00
+    PIN   D  UNKNOWN   1 999    18.26     0.00    18.26     0.00
+GATE AO211x2_ASAP7_75t_L           3.73  Y=(A1 * A2) + (B) + (C);                                     
+    PIN  A1  UNKNOWN   1 999    23.75     0.00    23.75     0.00
+    PIN  A2  UNKNOWN   1 999    23.99     0.00    23.99     0.00
+    PIN   B  UNKNOWN   1 999    22.26     0.00    22.26     0.00
+    PIN   C  UNKNOWN   1 999    20.86     0.00    20.86     0.00
+GATE AO21x1_ASAP7_75t_L            1.40  Y=(A1 * A2) + (B);                                           
+    PIN  A1  UNKNOWN   1 999    19.50     0.00    19.50     0.00
+    PIN  A2  UNKNOWN   1 999    19.12     0.00    19.12     0.00
+    PIN   B  UNKNOWN   1 999    19.12     0.00    19.12     0.00
+GATE AO21x2_ASAP7_75t_L            1.63  Y=(A1 * A2) + (B);                                           
+    PIN  A1  UNKNOWN   1 999    19.50     0.00    19.50     0.00
+    PIN  A2  UNKNOWN   1 999    19.12     0.00    19.12     0.00
+    PIN   B  UNKNOWN   1 999    19.12     0.00    19.12     0.00
+GATE AO221x1_ASAP7_75t_L           2.33  Y=(A1 * A2) + (B1 * B2) + (C);                               
+    PIN  A1  UNKNOWN   1 999    26.98     0.00    26.98     0.00
+    PIN  A2  UNKNOWN   1 999    27.27     0.00    27.27     0.00
+    PIN  B1  UNKNOWN   1 999    24.19     0.00    24.19     0.00
+    PIN  B2  UNKNOWN   1 999    24.27     0.00    24.27     0.00
+    PIN   C  UNKNOWN   1 999    23.99     0.00    23.99     0.00
+GATE AO221x2_ASAP7_75t_L           2.57  Y=(A1 * A2) + (B1 * B2) + (C);                               
+    PIN  A1  UNKNOWN   1 999    26.98     0.00    26.98     0.00
+    PIN  A2  UNKNOWN   1 999    27.27     0.00    27.27     0.00
+    PIN  B1  UNKNOWN   1 999    24.19     0.00    24.19     0.00
+    PIN  B2  UNKNOWN   1 999    24.27     0.00    24.27     0.00
+    PIN   C  UNKNOWN   1 999    23.99     0.00    23.99     0.00
+GATE AO222x2_ASAP7_75t_L           5.13  Y=(A1 * A2) + (B1 * B2) + (C1 * C2);                         
+    PIN  A1  UNKNOWN   1 999    29.14     0.00    29.14     0.00
+    PIN  A2  UNKNOWN   1 999    29.24     0.00    29.24     0.00
+    PIN  B1  UNKNOWN   1 999    27.33     0.00    27.33     0.00
+    PIN  B2  UNKNOWN   1 999    27.33     0.00    27.33     0.00
+    PIN  C1  UNKNOWN   1 999    24.38     0.00    24.38     0.00
+    PIN  C2  UNKNOWN   1 999    24.36     0.00    24.36     0.00
+GATE AO22x1_ASAP7_75t_L            2.10  Y=(A1 * A2) + (B1 * B2);                                     
+    PIN  A1  UNKNOWN   1 999    22.29     0.00    22.29     0.00
+    PIN  A2  UNKNOWN   1 999    22.00     0.00    22.00     0.00
+    PIN  B1  UNKNOWN   1 999    21.44     0.00    21.44     0.00
+    PIN  B2  UNKNOWN   1 999    20.94     0.00    20.94     0.00
+GATE AO22x2_ASAP7_75t_L            2.33  Y=(A1 * A2) + (B1 * B2);                                     
+    PIN  A1  UNKNOWN   1 999    22.29     0.00    22.29     0.00
+    PIN  A2  UNKNOWN   1 999    22.00     0.00    22.00     0.00
+    PIN  B1  UNKNOWN   1 999    21.44     0.00    21.44     0.00
+    PIN  B2  UNKNOWN   1 999    20.94     0.00    20.94     0.00
+GATE AO31x2_ASAP7_75t_L            3.73  Y=(A1 * A2 * A3) + (B);                                      
+    PIN  A1  UNKNOWN   1 999    20.23     0.00    20.23     0.00
+    PIN  A2  UNKNOWN   1 999    21.19     0.00    21.19     0.00
+    PIN  A3  UNKNOWN   1 999    21.51     0.00    21.51     0.00
+    PIN   B  UNKNOWN   1 999    21.30     0.00    21.30     0.00
+GATE AO322x2_ASAP7_75t_L           3.50  Y=(A1 * A2 * A3) + (B1 * B2) + (C1 * C2);                    
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AO32x1_ASAP7_75t_L            1.87  Y=(A1 * A2 * A3) + (B1 * B2);                                
+    PIN  A1  UNKNOWN   1 999    24.49     0.00    24.49     0.00
+    PIN  A2  UNKNOWN   1 999    25.56     0.00    25.56     0.00
+    PIN  A3  UNKNOWN   1 999    26.59     0.00    26.59     0.00
+    PIN  B1  UNKNOWN   1 999    25.12     0.00    25.12     0.00
+    PIN  B2  UNKNOWN   1 999    25.51     0.00    25.51     0.00
+GATE AO32x2_ASAP7_75t_L            2.10  Y=(A1 * A2 * A3) + (B1 * B2);                                
+    PIN  A1  UNKNOWN   1 999    24.49     0.00    24.49     0.00
+    PIN  A2  UNKNOWN   1 999    25.56     0.00    25.56     0.00
+    PIN  A3  UNKNOWN   1 999    26.59     0.00    26.59     0.00
+    PIN  B1  UNKNOWN   1 999    25.12     0.00    25.12     0.00
+    PIN  B2  UNKNOWN   1 999    25.51     0.00    25.51     0.00
+GATE AO331x1_ASAP7_75t_L           2.33  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C);                     
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN   C  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AO331x2_ASAP7_75t_L           2.57  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C);                     
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN   C  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AO332x1_ASAP7_75t_L           2.57  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2);               
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AO332x2_ASAP7_75t_L           2.80  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2);               
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AO333x1_ASAP7_75t_L           2.80  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3);          
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE AO333x2_ASAP7_75t_L           3.03  Y=(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3);          
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE AO33x2_ASAP7_75t_L            2.33  Y=(A1 * A2 * A3) + (B1 * B2 * B3);                           
+    PIN  A1  UNKNOWN   1 999    28.97     0.00    28.97     0.00
+    PIN  A2  UNKNOWN   1 999    30.04     0.00    30.04     0.00
+    PIN  A3  UNKNOWN   1 999    31.13     0.00    31.13     0.00
+    PIN  B1  UNKNOWN   1 999    27.57     0.00    27.57     0.00
+    PIN  B2  UNKNOWN   1 999    28.66     0.00    28.66     0.00
+    PIN  B3  UNKNOWN   1 999    29.48     0.00    29.48     0.00
+GATE AOI211x1_ASAP7_75t_L          2.80  Y=(!A1 * !B * !C) + (!A2 * !B * !C);                         
+    PIN  A1  UNKNOWN   1 999    20.32     0.00    20.32     0.00
+    PIN  A2  UNKNOWN   1 999    20.34     0.00    20.34     0.00
+    PIN   B  UNKNOWN   1 999    18.22     0.00    18.22     0.00
+    PIN   C  UNKNOWN   1 999    18.00     0.00    18.00     0.00
+GATE AOI211xp5_ASAP7_75t_L         1.40  Y=(!A1 * !B * !C) + (!A2 * !B * !C);                         
+    PIN  A1  UNKNOWN   1 999    20.32     0.00    20.32     0.00
+    PIN  A2  UNKNOWN   1 999    20.34     0.00    20.34     0.00
+    PIN   B  UNKNOWN   1 999    18.22     0.00    18.22     0.00
+    PIN   C  UNKNOWN   1 999    18.00     0.00    18.00     0.00
+GATE AOI21x1_ASAP7_75t_L           1.87  Y=(!A1 * !B) + (!A2 * !B);                                   
+    PIN  A1  UNKNOWN   1 999    16.02     0.00    16.02     0.00
+    PIN  A2  UNKNOWN   1 999    16.18     0.00    16.18     0.00
+    PIN   B  UNKNOWN   1 999    14.62     0.00    14.62     0.00
+GATE AOI21xp33_ASAP7_75t_L         1.17  Y=(!A1 * !B) + (!A2 * !B);                                   
+    PIN  A1  UNKNOWN   1 999    16.02     0.00    16.02     0.00
+    PIN  A2  UNKNOWN   1 999    16.18     0.00    16.18     0.00
+    PIN   B  UNKNOWN   1 999    14.62     0.00    14.62     0.00
+GATE AOI21xp5_ASAP7_75t_L          1.17  Y=(!A1 * !B) + (!A2 * !B);                                   
+    PIN  A1  UNKNOWN   1 999    16.02     0.00    16.02     0.00
+    PIN  A2  UNKNOWN   1 999    16.18     0.00    16.18     0.00
+    PIN   B  UNKNOWN   1 999    14.62     0.00    14.62     0.00
+GATE AOI221x1_ASAP7_75t_L          3.27  Y=(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C); 
+    PIN  A1  UNKNOWN   1 999    22.41     0.00    22.41     0.00
+    PIN  A2  UNKNOWN   1 999    22.54     0.00    22.54     0.00
+    PIN  B1  UNKNOWN   1 999    20.71     0.00    20.71     0.00
+    PIN  B2  UNKNOWN   1 999    20.54     0.00    20.54     0.00
+    PIN   C  UNKNOWN   1 999    19.02     0.00    19.02     0.00
+GATE AOI221xp5_ASAP7_75t_L         1.63  Y=(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C); 
+    PIN  A1  UNKNOWN   1 999    22.41     0.00    22.41     0.00
+    PIN  A2  UNKNOWN   1 999    22.54     0.00    22.54     0.00
+    PIN  B1  UNKNOWN   1 999    20.71     0.00    20.71     0.00
+    PIN  B2  UNKNOWN   1 999    20.54     0.00    20.54     0.00
+    PIN   C  UNKNOWN   1 999    19.02     0.00    19.02     0.00
+GATE AOI222xp33_ASAP7_75t_L        2.33  Y=(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2); 
+    PIN  A1  UNKNOWN   1 999    21.34     0.00    21.34     0.00
+    PIN  A2  UNKNOWN   1 999    21.04     0.00    21.04     0.00
+    PIN  B1  UNKNOWN   1 999    23.16     0.00    23.16     0.00
+    PIN  B2  UNKNOWN   1 999    23.37     0.00    23.37     0.00
+    PIN  C1  UNKNOWN   1 999    24.43     0.00    24.43     0.00
+    PIN  C2  UNKNOWN   1 999    24.65     0.00    24.65     0.00
+GATE AOI22x1_ASAP7_75t_L           2.33  Y=(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2);     
+    PIN  A1  UNKNOWN   1 999    17.75     0.00    17.75     0.00
+    PIN  A2  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B1  UNKNOWN   1 999    17.30     0.00    17.30     0.00
+    PIN  B2  UNKNOWN   1 999    17.15     0.00    17.15     0.00
+GATE AOI22xp33_ASAP7_75t_L         1.40  Y=(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2);     
+    PIN  A1  UNKNOWN   1 999    17.75     0.00    17.75     0.00
+    PIN  A2  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B1  UNKNOWN   1 999    17.30     0.00    17.30     0.00
+    PIN  B2  UNKNOWN   1 999    17.15     0.00    17.15     0.00
+GATE AOI22xp5_ASAP7_75t_L          1.40  Y=(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2);     
+    PIN  A1  UNKNOWN   1 999    17.75     0.00    17.75     0.00
+    PIN  A2  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B1  UNKNOWN   1 999    17.30     0.00    17.30     0.00
+    PIN  B2  UNKNOWN   1 999    17.15     0.00    17.15     0.00
+GATE AOI311xp33_ASAP7_75t_L        1.63  Y=(!A1 * !B * !C) + (!A2 * !B * !C) + (!A3 * !B * !C);       
+    PIN  A1  UNKNOWN   1 999    21.56     0.00    21.56     0.00
+    PIN  A2  UNKNOWN   1 999    22.49     0.00    22.49     0.00
+    PIN  A3  UNKNOWN   1 999    23.28     0.00    23.28     0.00
+    PIN   B  UNKNOWN   1 999    18.83     0.00    18.83     0.00
+    PIN   C  UNKNOWN   1 999    18.08     0.00    18.08     0.00
+GATE AOI31xp33_ASAP7_75t_L         1.40  Y=(!A1 * !B) + (!A2 * !B) + (!A3 * !B);                      
+    PIN  A1  UNKNOWN   1 999    18.00     0.00    18.00     0.00
+    PIN  A2  UNKNOWN   1 999    18.98     0.00    18.98     0.00
+    PIN  A3  UNKNOWN   1 999    19.39     0.00    19.39     0.00
+    PIN   B  UNKNOWN   1 999    16.90     0.00    16.90     0.00
+GATE AOI31xp67_ASAP7_75t_L         3.03  Y=(!A1 * !B) + (!A2 * !B) + (!A3 * !B);                      
+    PIN  A1  UNKNOWN   1 999    18.00     0.00    18.00     0.00
+    PIN  A2  UNKNOWN   1 999    18.98     0.00    18.98     0.00
+    PIN  A3  UNKNOWN   1 999    19.39     0.00    19.39     0.00
+    PIN   B  UNKNOWN   1 999    16.90     0.00    16.90     0.00
+GATE AOI321xp33_ASAP7_75t_L        1.87  Y=(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C) + (!A3 * !B1 * !C) + (!A3 * !B2 * !C); 
+    PIN  A1  UNKNOWN   1 999    23.89     0.00    23.89     0.00
+    PIN  A2  UNKNOWN   1 999    24.80     0.00    24.80     0.00
+    PIN  A3  UNKNOWN   1 999    25.69     0.00    25.69     0.00
+    PIN  B1  UNKNOWN   1 999    21.41     0.00    21.41     0.00
+    PIN  B2  UNKNOWN   1 999    21.68     0.00    21.68     0.00
+    PIN   C  UNKNOWN   1 999    20.87     0.00    20.87     0.00
+GATE AOI322xp5_ASAP7_75t_L         2.10  Y=(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AOI32xp33_ASAP7_75t_L         1.63  Y=(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2) + (!A3 * !B1) + (!A3 * !B2); 
+    PIN  A1  UNKNOWN   1 999    20.88     0.00    20.88     0.00
+    PIN  A2  UNKNOWN   1 999    21.78     0.00    21.78     0.00
+    PIN  A3  UNKNOWN   1 999    22.22     0.00    22.22     0.00
+    PIN  B1  UNKNOWN   1 999    19.44     0.00    19.44     0.00
+    PIN  B2  UNKNOWN   1 999    19.64     0.00    19.64     0.00
+GATE AOI331xp33_ASAP7_75t_L        2.10  Y=(!A1 * !B1 * !C1) + (!A1 * !B2 * !C1) + (!A1 * !B3 * !C1) + (!A2 * !B1 * !C1) + (!A2 * !B2 * !C1) + (!A2 * !B3 * !C1) + (!A3 * !B1 * !C1) + (!A3 * !B2 * !C1) + (!A3 * !B3 * !C1); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AOI332xp33_ASAP7_75t_L        2.33  Y=(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A1 * !B3 * !C1) + (!A1 * !B3 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A2 * !B3 * !C1) + (!A2 * !B3 * !C2) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2) + (!A3 * !B3 * !C1) + (!A3 * !B3 * !C2); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE AOI333xp33_ASAP7_75t_L        2.57  Y=(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B1 * !C3) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A1 * !B2 * !C3) + (!A1 * !B3 * !C1) + (!A1 * !B3 * !C2) + (!A1 * !B3 * !C3) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B1 * !C3) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A2 * !B2 * !C3) + (!A2 * !B3 * !C1) + (!A2 * !B3 * !C2) + (!A2 * !B3 * !C3) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B1 * !C3) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2) + (!A3 * !B2 * !C3) + (!A3 * !B3 * !C1) + (!A3 * !B3 * !C2) + (!A3 * !B3 * !C3); 
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE AOI33xp33_ASAP7_75t_L         1.87  Y=(!A1 * !B1) + (!A1 * !B2) + (!A1 * !B3) + (!A2 * !B1) + (!A2 * !B2) + (!A2 * !B3) + (!A3 * !B1) + (!A3 * !B2) + (!A3 * !B3); 
+    PIN  A1  UNKNOWN   1 999    24.62     0.00    24.62     0.00
+    PIN  A2  UNKNOWN   1 999    24.52     0.00    24.52     0.00
+    PIN  A3  UNKNOWN   1 999    22.62     0.00    22.62     0.00
+    PIN  B1  UNKNOWN   1 999    21.22     0.00    21.22     0.00
+    PIN  B2  UNKNOWN   1 999    21.83     0.00    21.83     0.00
+    PIN  B3  UNKNOWN   1 999    22.69     0.00    22.69     0.00
+GATE BUFx10_ASAP7_75t_L            3.27  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx12_ASAP7_75t_L            3.73  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx12f_ASAP7_75t_L           4.20  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx16f_ASAP7_75t_L           5.13  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx24_ASAP7_75t_L            7.00  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx2_ASAP7_75t_L             1.17  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx3_ASAP7_75t_L             1.40  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx4_ASAP7_75t_L             1.63  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx4f_ASAP7_75t_L            1.87  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx5_ASAP7_75t_L             1.87  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx6f_ASAP7_75t_L            2.33  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE BUFx8_ASAP7_75t_L             2.80  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE HB1xp67_ASAP7_75t_L           0.93  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE HB2xp67_ASAP7_75t_L           1.17  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE HB3xp67_ASAP7_75t_L           1.40  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE HB4xp67_ASAP7_75t_L           1.63  Y=A;                                                         
+    PIN   A  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE INVx11_ASAP7_75t_L            3.03  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx13_ASAP7_75t_L            3.50  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx1_ASAP7_75t_L             0.70  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx2_ASAP7_75t_L             0.93  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx3_ASAP7_75t_L             1.17  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx4_ASAP7_75t_L             1.40  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx5_ASAP7_75t_L             1.63  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx6_ASAP7_75t_L             1.87  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVx8_ASAP7_75t_L             2.33  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVxp33_ASAP7_75t_L           0.70  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE INVxp67_ASAP7_75t_L           0.70  Y=!A;                                                        
+    PIN   A  UNKNOWN   1 999    10.32     0.00    10.32     0.00
+GATE O2A1O1Ixp33_ASAP7_75t_L       0.00  Y=(!A1 * !A2 * !C) + (!B * !C);                              
+    PIN  A1  UNKNOWN   1 999    20.98     0.00    20.98     0.00
+    PIN  A2  UNKNOWN   1 999    19.81     0.00    19.81     0.00
+    PIN   B  UNKNOWN   1 999    17.04     0.00    17.04     0.00
+    PIN   C  UNKNOWN   1 999    16.09     0.00    16.09     0.00
+GATE O2A1O1Ixp5_ASAP7_75t_L        0.00  Y=(!A1 * !A2 * !C) + (!B * !C);                              
+    PIN  A1  UNKNOWN   1 999    20.98     0.00    20.98     0.00
+    PIN  A2  UNKNOWN   1 999    19.81     0.00    19.81     0.00
+    PIN   B  UNKNOWN   1 999    17.04     0.00    17.04     0.00
+    PIN   C  UNKNOWN   1 999    16.09     0.00    16.09     0.00
+GATE OA211x2_ASAP7_75t_L           1.87  Y=(A1 * B * C) + (A2 * B * C);                               
+    PIN  A1  UNKNOWN   1 999    23.85     0.00    23.85     0.00
+    PIN  A2  UNKNOWN   1 999    23.56     0.00    23.56     0.00
+    PIN   B  UNKNOWN   1 999    26.69     0.00    26.69     0.00
+    PIN   C  UNKNOWN   1 999    27.53     0.00    27.53     0.00
+GATE OA21x2_ASAP7_75t_L            1.63  Y=(A1 * B) + (A2 * B);                                       
+    PIN  A1  UNKNOWN   1 999    20.39     0.00    20.39     0.00
+    PIN  A2  UNKNOWN   1 999    19.87     0.00    19.87     0.00
+    PIN   B  UNKNOWN   1 999    18.48     0.00    18.48     0.00
+GATE OA221x2_ASAP7_75t_L           3.73  Y=(A1 * B1 * C) + (A1 * B2 * C) + (A2 * B1 * C) + (A2 * B2 * C); 
+    PIN  A1  UNKNOWN   1 999    28.53     0.00    28.53     0.00
+    PIN  A2  UNKNOWN   1 999    28.33     0.00    28.33     0.00
+    PIN  B1  UNKNOWN   1 999    26.21     0.00    26.21     0.00
+    PIN  B2  UNKNOWN   1 999    26.10     0.00    26.10     0.00
+    PIN   C  UNKNOWN   1 999    22.73     0.00    22.73     0.00
+GATE OA222x2_ASAP7_75t_L           2.80  Y=(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2); 
+    PIN  A1  UNKNOWN   1 999    25.37     0.00    25.37     0.00
+    PIN  A2  UNKNOWN   1 999    25.81     0.00    25.81     0.00
+    PIN  B1  UNKNOWN   1 999    26.70     0.00    26.70     0.00
+    PIN  B2  UNKNOWN   1 999    27.23     0.00    27.23     0.00
+    PIN  C1  UNKNOWN   1 999    27.71     0.00    27.71     0.00
+    PIN  C2  UNKNOWN   1 999    28.47     0.00    28.47     0.00
+GATE OA22x2_ASAP7_75t_L            2.33  Y=(A1 * B1) + (A1 * B2) + (A2 * B1) + (A2 * B2);             
+    PIN  A1  UNKNOWN   1 999    22.02     0.00    22.02     0.00
+    PIN  A2  UNKNOWN   1 999    22.31     0.00    22.31     0.00
+    PIN  B1  UNKNOWN   1 999    22.67     0.00    22.67     0.00
+    PIN  B2  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+GATE OA31x2_ASAP7_75t_L            3.50  Y=(A1 * B1) + (A2 * B1) + (A3 * B1);                         
+    PIN  A1  UNKNOWN   1 999    24.65     0.00    24.65     0.00
+    PIN  A2  UNKNOWN   1 999    23.68     0.00    23.68     0.00
+    PIN  A3  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+    PIN  B1  UNKNOWN   1 999    24.90     0.00    24.90     0.00
+GATE OA331x1_ASAP7_75t_L           2.33  Y=(A1 * B1 * C1) + (A1 * B2 * C1) + (A1 * B3 * C1) + (A2 * B1 * C1) + (A2 * B2 * C1) + (A2 * B3 * C1) + (A3 * B1 * C1) + (A3 * B2 * C1) + (A3 * B3 * C1); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OA331x2_ASAP7_75t_L           2.57  Y=(A1 * B1 * C1) + (A1 * B2 * C1) + (A1 * B3 * C1) + (A2 * B1 * C1) + (A2 * B2 * C1) + (A2 * B3 * C1) + (A3 * B1 * C1) + (A3 * B2 * C1) + (A3 * B3 * C1); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OA332x1_ASAP7_75t_L           2.57  Y=(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B3 * C1) + (A3 * B3 * C2); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OA332x2_ASAP7_75t_L           2.80  Y=(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B3 * C1) + (A3 * B3 * C2); 
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OA333x1_ASAP7_75t_L           2.80  Y=(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B1 * C3) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B2 * C3) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A1 * B3 * C3) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B1 * C3) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B2 * C3) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A2 * B3 * C3) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B1 * C3) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B2 * C3) + (A3 * B3 * C1) + (A3 * B3 * C2) + (A3 * B3 * C3); 
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE OA333x2_ASAP7_75t_L           3.03  Y=(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B1 * C3) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B2 * C3) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A1 * B3 * C3) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B1 * C3) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B2 * C3) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A2 * B3 * C3) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B1 * C3) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B2 * C3) + (A3 * B3 * C1) + (A3 * B3 * C2) + (A3 * B3 * C3); 
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE OA33x2_ASAP7_75t_L            2.33  Y=(A1 * B1) + (A1 * B2) + (A1 * B3) + (A2 * B1) + (A2 * B2) + (A2 * B3) + (A3 * B1) + (A3 * B2) + (A3 * B3); 
+    PIN  A1  UNKNOWN   1 999    29.34     0.00    29.34     0.00
+    PIN  A2  UNKNOWN   1 999    28.74     0.00    28.74     0.00
+    PIN  A3  UNKNOWN   1 999    27.72     0.00    27.72     0.00
+    PIN  B1  UNKNOWN   1 999    26.91     0.00    26.91     0.00
+    PIN  B2  UNKNOWN   1 999    26.36     0.00    26.36     0.00
+    PIN  B3  UNKNOWN   1 999    25.46     0.00    25.46     0.00
+GATE OAI211xp5_ASAP7_75t_L         1.40  Y=(!A1 * !A2) + (!B) + (!C);                                 
+    PIN  A1  UNKNOWN   1 999    19.05     0.00    19.05     0.00
+    PIN  A2  UNKNOWN   1 999    19.04     0.00    19.04     0.00
+    PIN   B  UNKNOWN   1 999    16.66     0.00    16.66     0.00
+    PIN   C  UNKNOWN   1 999    17.01     0.00    17.01     0.00
+GATE OAI21x1_ASAP7_75t_L           1.87  Y=(!A1 * !A2) + (!B);                                        
+    PIN  A1  UNKNOWN   1 999    16.36     0.00    16.36     0.00
+    PIN  A2  UNKNOWN   1 999    15.63     0.00    15.63     0.00
+    PIN   B  UNKNOWN   1 999    13.28     0.00    13.28     0.00
+GATE OAI21xp33_ASAP7_75t_L         1.17  Y=(!A1 * !A2) + (!B);                                        
+    PIN  A1  UNKNOWN   1 999    16.36     0.00    16.36     0.00
+    PIN  A2  UNKNOWN   1 999    15.63     0.00    15.63     0.00
+    PIN   B  UNKNOWN   1 999    13.28     0.00    13.28     0.00
+GATE OAI21xp5_ASAP7_75t_L          1.17  Y=(!A1 * !A2) + (!B);                                        
+    PIN  A1  UNKNOWN   1 999    16.36     0.00    16.36     0.00
+    PIN  A2  UNKNOWN   1 999    15.63     0.00    15.63     0.00
+    PIN   B  UNKNOWN   1 999    13.28     0.00    13.28     0.00
+GATE OAI221xp5_ASAP7_75t_L         1.63  Y=(!A1 * !A2) + (!B1 * !B2) + (!C);                          
+    PIN  A1  UNKNOWN   1 999    22.05     0.00    22.05     0.00
+    PIN  A2  UNKNOWN   1 999    22.28     0.00    22.28     0.00
+    PIN  B1  UNKNOWN   1 999    19.92     0.00    19.92     0.00
+    PIN  B2  UNKNOWN   1 999    19.64     0.00    19.64     0.00
+    PIN   C  UNKNOWN   1 999    17.11     0.00    17.11     0.00
+GATE OAI222xp33_ASAP7_75t_L        2.33  Y=(!A1 * !A2) + (!B1 * !B2) + (!C1 * !C2);                   
+    PIN  A1  UNKNOWN   1 999    20.73     0.00    20.73     0.00
+    PIN  A2  UNKNOWN   1 999    20.73     0.00    20.73     0.00
+    PIN  B1  UNKNOWN   1 999    21.82     0.00    21.82     0.00
+    PIN  B2  UNKNOWN   1 999    22.16     0.00    22.16     0.00
+    PIN  C1  UNKNOWN   1 999    22.76     0.00    22.76     0.00
+    PIN  C2  UNKNOWN   1 999    23.34     0.00    23.34     0.00
+GATE OAI22x1_ASAP7_75t_L           2.33  Y=(!A1 * !A2) + (!B1 * !B2);                                 
+    PIN  A1  UNKNOWN   1 999    17.05     0.00    17.05     0.00
+    PIN  A2  UNKNOWN   1 999    17.25     0.00    17.25     0.00
+    PIN  B1  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B2  UNKNOWN   1 999    17.81     0.00    17.81     0.00
+GATE OAI22xp33_ASAP7_75t_L         1.40  Y=(!A1 * !A2) + (!B1 * !B2);                                 
+    PIN  A1  UNKNOWN   1 999    17.05     0.00    17.05     0.00
+    PIN  A2  UNKNOWN   1 999    17.25     0.00    17.25     0.00
+    PIN  B1  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B2  UNKNOWN   1 999    17.81     0.00    17.81     0.00
+GATE OAI22xp5_ASAP7_75t_L          1.40  Y=(!A1 * !A2) + (!B1 * !B2);                                 
+    PIN  A1  UNKNOWN   1 999    17.05     0.00    17.05     0.00
+    PIN  A2  UNKNOWN   1 999    17.25     0.00    17.25     0.00
+    PIN  B1  UNKNOWN   1 999    17.96     0.00    17.96     0.00
+    PIN  B2  UNKNOWN   1 999    17.81     0.00    17.81     0.00
+GATE OAI311xp33_ASAP7_75t_L        1.63  Y=(!A1 * !A2 * !A3) + (!B1) + (!C1);                         
+    PIN  A1  UNKNOWN   1 999    21.75     0.00    21.75     0.00
+    PIN  A2  UNKNOWN   1 999    22.78     0.00    22.78     0.00
+    PIN  A3  UNKNOWN   1 999    23.42     0.00    23.42     0.00
+    PIN  B1  UNKNOWN   1 999    16.32     0.00    16.32     0.00
+    PIN  C1  UNKNOWN   1 999    15.87     0.00    15.87     0.00
+GATE OAI31xp33_ASAP7_75t_L         1.40  Y=(!A1 * !A2 * !A3) + (!B);                                  
+    PIN  A1  UNKNOWN   1 999    18.70     0.00    18.70     0.00
+    PIN  A2  UNKNOWN   1 999    19.66     0.00    19.66     0.00
+    PIN  A3  UNKNOWN   1 999    19.97     0.00    19.97     0.00
+    PIN   B  UNKNOWN   1 999    15.64     0.00    15.64     0.00
+GATE OAI31xp67_ASAP7_75t_L         3.03  Y=(!A1 * !A2 * !A3) + (!B);                                  
+    PIN  A1  UNKNOWN   1 999    18.70     0.00    18.70     0.00
+    PIN  A2  UNKNOWN   1 999    19.66     0.00    19.66     0.00
+    PIN  A3  UNKNOWN   1 999    19.97     0.00    19.97     0.00
+    PIN   B  UNKNOWN   1 999    15.64     0.00    15.64     0.00
+GATE OAI321xp33_ASAP7_75t_L        1.87  Y=(!A1 * !A2 * !A3) + (!B1 * !B2) + (!C);                    
+    PIN  A1  UNKNOWN   1 999    24.00     0.00    24.00     0.00
+    PIN  A2  UNKNOWN   1 999    25.01     0.00    25.01     0.00
+    PIN  A3  UNKNOWN   1 999    25.76     0.00    25.76     0.00
+    PIN  B1  UNKNOWN   1 999    20.87     0.00    20.87     0.00
+    PIN  B2  UNKNOWN   1 999    21.14     0.00    21.14     0.00
+    PIN   C  UNKNOWN   1 999    18.16     0.00    18.16     0.00
+GATE OAI322xp33_ASAP7_75t_L        2.10  Y=(!A1 * !A2 * !A3) + (!B1 * !B2) + (!C1 * !C2);             
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OAI32xp33_ASAP7_75t_L         1.63  Y=(!A1 * !A2 * !A3) + (!B1 * !B2);                           
+    PIN  A1  UNKNOWN   1 999    21.57     0.00    21.57     0.00
+    PIN  A2  UNKNOWN   1 999    22.18     0.00    22.18     0.00
+    PIN  A3  UNKNOWN   1 999    22.47     0.00    22.47     0.00
+    PIN  B1  UNKNOWN   1 999    19.30     0.00    19.30     0.00
+    PIN  B2  UNKNOWN   1 999    19.55     0.00    19.55     0.00
+GATE OAI331xp33_ASAP7_75t_L        2.10  Y=(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1);             
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OAI332xp33_ASAP7_75t_L        2.33  Y=(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1 * !C2);       
+    PIN  A1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  A3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B3  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C1  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  C2  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE OAI333xp33_ASAP7_75t_L        2.57  Y=(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1 * !C2 * !C3); 
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE OAI33xp33_ASAP7_75t_L         2.57  Y=(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1 * !C2 * !C3); 
+    PIN  A1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  A3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  B3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C1  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C2  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+    PIN  C3  UNKNOWN   1 999     0.00     0.00     0.00     0.00
+GATE AND2x2_ASAP7_75t_L            1.40  Y=(A * B);                                                   
+    PIN   A  UNKNOWN   1 999    18.82     0.00    18.82     0.00
+    PIN   B  UNKNOWN   1 999    18.50     0.00    18.50     0.00
+GATE AND2x4_ASAP7_75t_L            2.33  Y=(A * B);                                                   
+    PIN   A  UNKNOWN   1 999    18.82     0.00    18.82     0.00
+    PIN   B  UNKNOWN   1 999    18.50     0.00    18.50     0.00
+GATE AND2x6_ASAP7_75t_L            2.80  Y=(A * B);                                                   
+    PIN   A  UNKNOWN   1 999    18.82     0.00    18.82     0.00
+    PIN   B  UNKNOWN   1 999    18.50     0.00    18.50     0.00
+GATE AND3x1_ASAP7_75t_L            1.40  Y=(A * B * C);                                               
+    PIN   A  UNKNOWN   1 999    19.30     0.00    19.30     0.00
+    PIN   B  UNKNOWN   1 999    19.97     0.00    19.97     0.00
+    PIN   C  UNKNOWN   1 999    20.40     0.00    20.40     0.00
+GATE AND3x2_ASAP7_75t_L            1.63  Y=(A * B * C);                                               
+    PIN   A  UNKNOWN   1 999    19.30     0.00    19.30     0.00
+    PIN   B  UNKNOWN   1 999    19.97     0.00    19.97     0.00
+    PIN   C  UNKNOWN   1 999    20.40     0.00    20.40     0.00
+GATE AND3x4_ASAP7_75t_L            3.73  Y=(A * B * C);                                               
+    PIN   A  UNKNOWN   1 999    19.30     0.00    19.30     0.00
+    PIN   B  UNKNOWN   1 999    19.97     0.00    19.97     0.00
+    PIN   C  UNKNOWN   1 999    20.40     0.00    20.40     0.00
+GATE AND4x1_ASAP7_75t_L            1.63  Y=(A * B * C * D);                                           
+    PIN   A  UNKNOWN   1 999    19.58     0.00    19.58     0.00
+    PIN   B  UNKNOWN   1 999    20.65     0.00    20.65     0.00
+    PIN   C  UNKNOWN   1 999    21.50     0.00    21.50     0.00
+    PIN   D  UNKNOWN   1 999    22.01     0.00    22.01     0.00
+GATE AND4x2_ASAP7_75t_L            3.73  Y=(A * B * C * D);                                           
+    PIN   A  UNKNOWN   1 999    19.58     0.00    19.58     0.00
+    PIN   B  UNKNOWN   1 999    20.65     0.00    20.65     0.00
+    PIN   C  UNKNOWN   1 999    21.50     0.00    21.50     0.00
+    PIN   D  UNKNOWN   1 999    22.01     0.00    22.01     0.00
+GATE AND5x1_ASAP7_75t_L            1.87  Y=(A * B * C * D * E);                                       
+    PIN   A  UNKNOWN   1 999    20.94     0.00    20.94     0.00
+    PIN   B  UNKNOWN   1 999    22.51     0.00    22.51     0.00
+    PIN   C  UNKNOWN   1 999    23.77     0.00    23.77     0.00
+    PIN   D  UNKNOWN   1 999    24.72     0.00    24.72     0.00
+    PIN   E  UNKNOWN   1 999    25.08     0.00    25.08     0.00
+GATE AND5x2_ASAP7_75t_L            4.67  Y=(A * B * C * D * E);                                       
+    PIN   A  UNKNOWN   1 999    20.94     0.00    20.94     0.00
+    PIN   B  UNKNOWN   1 999    22.51     0.00    22.51     0.00
+    PIN   C  UNKNOWN   1 999    23.77     0.00    23.77     0.00
+    PIN   D  UNKNOWN   1 999    24.72     0.00    24.72     0.00
+    PIN   E  UNKNOWN   1 999    25.08     0.00    25.08     0.00
+GATE FAx1_ASAP7_75t_L              3.27  CON=(!A * !B) + (!A * !CI) + (!B * !CI);                     
+    PIN   A  UNKNOWN   1 999    16.59     0.00    16.59     0.00
+    PIN   B  UNKNOWN   1 999    26.00     0.00    26.00     0.00
+    PIN  CI  UNKNOWN   1 999    23.13     0.00    23.13     0.00
+GATE FAx1_ASAP7_75t_L              3.27  SN=(A * B * !CI) + (A * !B * CI) + (!A * B * CI) + (!A * !B * !CI); 
+    PIN   A  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN   B  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  CI  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE HAxp5_ASAP7_75t_L             2.10  CON=(!A) + (!B);                                             
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE HAxp5_ASAP7_75t_L             2.10  SN=(A * B) + (!A * !B);                                      
+    PIN   A  UNKNOWN   1 999    27.98     0.00    27.98     0.00
+    PIN   B  UNKNOWN   1 999    27.52     0.00    27.52     0.00
+GATE MAJIxp5_ASAP7_75t_L           1.63  Y=(!A * !B) + (!A * !C) + (!B * !C);                         
+    PIN   A  UNKNOWN   1 999    16.59     0.00    16.59     0.00
+    PIN   B  UNKNOWN   1 999    26.00     0.00    26.00     0.00
+    PIN   C  UNKNOWN   1 999    23.13     0.00    23.13     0.00
+GATE MAJx2_ASAP7_75t_L             2.10  Y=(A * B) + (A * C) + (B * C);                               
+    PIN   A  UNKNOWN   1 999    23.00     0.00    23.00     0.00
+    PIN   B  UNKNOWN   1 999    26.34     0.00    26.34     0.00
+    PIN   C  UNKNOWN   1 999    24.34     0.00    24.34     0.00
+GATE MAJx3_ASAP7_75t_L             2.33  Y=(A * B) + (A * C) + (B * C);                               
+    PIN   A  UNKNOWN   1 999    23.00     0.00    23.00     0.00
+    PIN   B  UNKNOWN   1 999    26.34     0.00    26.34     0.00
+    PIN   C  UNKNOWN   1 999    24.34     0.00    24.34     0.00
+GATE NAND2x1_ASAP7_75t_L           1.40  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND2x1p5_ASAP7_75t_L         1.87  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND2x2_ASAP7_75t_L           2.33  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND2xp33_ASAP7_75t_L         0.93  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND2xp5_ASAP7_75t_L          0.93  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND2xp67_ASAP7_75t_L         1.40  Y=(!A) + (!B);                                               
+    PIN   A  UNKNOWN   1 999    13.89     0.00    13.89     0.00
+    PIN   B  UNKNOWN   1 999    13.24     0.00    13.24     0.00
+GATE NAND3x1_ASAP7_75t_L           2.57  Y=(!A) + (!B) + (!C);                                        
+    PIN   A  UNKNOWN   1 999    15.00     0.00    15.00     0.00
+    PIN   B  UNKNOWN   1 999    16.19     0.00    16.19     0.00
+    PIN   C  UNKNOWN   1 999    16.75     0.00    16.75     0.00
+GATE NAND3x2_ASAP7_75t_L           4.67  Y=(!A) + (!B) + (!C);                                        
+    PIN   A  UNKNOWN   1 999    15.00     0.00    15.00     0.00
+    PIN   B  UNKNOWN   1 999    16.19     0.00    16.19     0.00
+    PIN   C  UNKNOWN   1 999    16.75     0.00    16.75     0.00
+GATE NAND3xp33_ASAP7_75t_L         1.17  Y=(!A) + (!B) + (!C);                                        
+    PIN   A  UNKNOWN   1 999    15.00     0.00    15.00     0.00
+    PIN   B  UNKNOWN   1 999    16.19     0.00    16.19     0.00
+    PIN   C  UNKNOWN   1 999    16.75     0.00    16.75     0.00
+GATE NAND4xp25_ASAP7_75t_L         1.40  Y=(!A) + (!B) + (!C) + (!D);                                 
+    PIN   A  UNKNOWN   1 999    15.59     0.00    15.59     0.00
+    PIN   B  UNKNOWN   1 999    16.73     0.00    16.73     0.00
+    PIN   C  UNKNOWN   1 999    17.53     0.00    17.53     0.00
+    PIN   D  UNKNOWN   1 999    18.18     0.00    18.18     0.00
+GATE NAND4xp75_ASAP7_75t_L         3.27  Y=(!A) + (!B) + (!C) + (!D);                                 
+    PIN   A  UNKNOWN   1 999    15.59     0.00    15.59     0.00
+    PIN   B  UNKNOWN   1 999    16.73     0.00    16.73     0.00
+    PIN   C  UNKNOWN   1 999    17.53     0.00    17.53     0.00
+    PIN   D  UNKNOWN   1 999    18.18     0.00    18.18     0.00
+GATE NAND5xp2_ASAP7_75t_L          1.63  Y=(!A) + (!B) + (!C) + (!D) + (!E);                          
+    PIN   A  UNKNOWN   1 999    18.06     0.00    18.06     0.00
+    PIN   B  UNKNOWN   1 999    19.11     0.00    19.11     0.00
+    PIN   C  UNKNOWN   1 999    20.11     0.00    20.11     0.00
+    PIN   D  UNKNOWN   1 999    20.86     0.00    20.86     0.00
+    PIN   E  UNKNOWN   1 999    20.97     0.00    20.97     0.00
+GATE NOR2x1_ASAP7_75t_L            1.40  Y=(!A * !B);                                                 
+    PIN   A  UNKNOWN   1 999    14.57     0.00    14.57     0.00
+    PIN   B  UNKNOWN   1 999    13.84     0.00    13.84     0.00
+GATE NOR2x1p5_ASAP7_75t_L          1.87  Y=(!A * !B);                                                 
+    PIN   A  UNKNOWN   1 999    14.57     0.00    14.57     0.00
+    PIN   B  UNKNOWN   1 999    13.84     0.00    13.84     0.00
+GATE NOR2x2_ASAP7_75t_L            2.33  Y=(!A * !B);                                                 
+    PIN   A  UNKNOWN   1 999    14.57     0.00    14.57     0.00
+    PIN   B  UNKNOWN   1 999    13.84     0.00    13.84     0.00
+GATE NOR2xp33_ASAP7_75t_L          0.93  Y=(!A * !B);                                                 
+    PIN   A  UNKNOWN   1 999    14.57     0.00    14.57     0.00
+    PIN   B  UNKNOWN   1 999    13.84     0.00    13.84     0.00
+GATE NOR2xp67_ASAP7_75t_L          1.40  Y=(!A * !B);                                                 
+    PIN   A  UNKNOWN   1 999    14.57     0.00    14.57     0.00
+    PIN   B  UNKNOWN   1 999    13.84     0.00    13.84     0.00
+GATE NOR3x1_ASAP7_75t_L            2.57  Y=(!A * !B * !C);                                            
+    PIN   A  UNKNOWN   1 999    16.20     0.00    16.20     0.00
+    PIN   B  UNKNOWN   1 999    17.60     0.00    17.60     0.00
+    PIN   C  UNKNOWN   1 999    18.03     0.00    18.03     0.00
+GATE NOR3x2_ASAP7_75t_L            4.67  Y=(!A * !B * !C);                                            
+    PIN   A  UNKNOWN   1 999    16.20     0.00    16.20     0.00
+    PIN   B  UNKNOWN   1 999    17.60     0.00    17.60     0.00
+    PIN   C  UNKNOWN   1 999    18.03     0.00    18.03     0.00
+GATE NOR3xp33_ASAP7_75t_L          1.17  Y=(!A * !B * !C);                                            
+    PIN   A  UNKNOWN   1 999    16.20     0.00    16.20     0.00
+    PIN   B  UNKNOWN   1 999    17.60     0.00    17.60     0.00
+    PIN   C  UNKNOWN   1 999    18.03     0.00    18.03     0.00
+GATE NOR4xp25_ASAP7_75t_L          1.40  Y=(!A * !B * !C * !D);                                       
+    PIN   A  UNKNOWN   1 999    18.33     0.00    18.33     0.00
+    PIN   B  UNKNOWN   1 999    19.72     0.00    19.72     0.00
+    PIN   C  UNKNOWN   1 999    20.63     0.00    20.63     0.00
+    PIN   D  UNKNOWN   1 999    21.31     0.00    21.31     0.00
+GATE NOR4xp75_ASAP7_75t_L          3.27  Y=(!A * !B * !C * !D);                                       
+    PIN   A  UNKNOWN   1 999    18.33     0.00    18.33     0.00
+    PIN   B  UNKNOWN   1 999    19.72     0.00    19.72     0.00
+    PIN   C  UNKNOWN   1 999    20.63     0.00    20.63     0.00
+    PIN   D  UNKNOWN   1 999    21.31     0.00    21.31     0.00
+GATE NOR5xp2_ASAP7_75t_L           1.63  Y=(!A * !B * !C * !D * !E);                                  
+    PIN   A  UNKNOWN   1 999    21.78     0.00    21.78     0.00
+    PIN   B  UNKNOWN   1 999    23.34     0.00    23.34     0.00
+    PIN   C  UNKNOWN   1 999    24.77     0.00    24.77     0.00
+    PIN   D  UNKNOWN   1 999    25.63     0.00    25.63     0.00
+    PIN   E  UNKNOWN   1 999    25.67     0.00    25.67     0.00
+GATE OR2x2_ASAP7_75t_L             1.40  Y=(A) + (B);                                                 
+    PIN   A  UNKNOWN   1 999    21.56     0.00    21.56     0.00
+    PIN   B  UNKNOWN   1 999    21.20     0.00    21.20     0.00
+GATE OR2x4_ASAP7_75t_L             1.87  Y=(A) + (B);                                                 
+    PIN   A  UNKNOWN   1 999    21.56     0.00    21.56     0.00
+    PIN   B  UNKNOWN   1 999    21.20     0.00    21.20     0.00
+GATE OR2x6_ASAP7_75t_L             2.80  Y=(A) + (B);                                                 
+    PIN   A  UNKNOWN   1 999    21.56     0.00    21.56     0.00
+    PIN   B  UNKNOWN   1 999    21.20     0.00    21.20     0.00
+GATE OR3x1_ASAP7_75t_L             1.40  Y=(A) + (B) + (C);                                           
+    PIN   A  UNKNOWN   1 999    22.21     0.00    22.21     0.00
+    PIN   B  UNKNOWN   1 999    23.01     0.00    23.01     0.00
+    PIN   C  UNKNOWN   1 999    23.52     0.00    23.52     0.00
+GATE OR3x2_ASAP7_75t_L             1.63  Y=(A) + (B) + (C);                                           
+    PIN   A  UNKNOWN   1 999    22.21     0.00    22.21     0.00
+    PIN   B  UNKNOWN   1 999    23.01     0.00    23.01     0.00
+    PIN   C  UNKNOWN   1 999    23.52     0.00    23.52     0.00
+GATE OR3x4_ASAP7_75t_L             2.10  Y=(A) + (B) + (C);                                           
+    PIN   A  UNKNOWN   1 999    22.21     0.00    22.21     0.00
+    PIN   B  UNKNOWN   1 999    23.01     0.00    23.01     0.00
+    PIN   C  UNKNOWN   1 999    23.52     0.00    23.52     0.00
+GATE OR4x1_ASAP7_75t_L             1.63  Y=(A) + (B) + (C) + (D);                                     
+    PIN   A  UNKNOWN   1 999    22.40     0.00    22.40     0.00
+    PIN   B  UNKNOWN   1 999    23.58     0.00    23.58     0.00
+    PIN   C  UNKNOWN   1 999    24.57     0.00    24.57     0.00
+    PIN   D  UNKNOWN   1 999    24.74     0.00    24.74     0.00
+GATE OR4x2_ASAP7_75t_L             1.87  Y=(A) + (B) + (C) + (D);                                     
+    PIN   A  UNKNOWN   1 999    22.40     0.00    22.40     0.00
+    PIN   B  UNKNOWN   1 999    23.58     0.00    23.58     0.00
+    PIN   C  UNKNOWN   1 999    24.57     0.00    24.57     0.00
+    PIN   D  UNKNOWN   1 999    24.74     0.00    24.74     0.00
+GATE OR5x1_ASAP7_75t_L             1.87  Y=(A) + (B) + (C) + (D) + (E);                               
+    PIN   A  UNKNOWN   1 999    24.48     0.00    24.48     0.00
+    PIN   B  UNKNOWN   1 999    26.38     0.00    26.38     0.00
+    PIN   C  UNKNOWN   1 999    27.91     0.00    27.91     0.00
+    PIN   D  UNKNOWN   1 999    28.91     0.00    28.91     0.00
+    PIN   E  UNKNOWN   1 999    29.30     0.00    29.30     0.00
+GATE OR5x2_ASAP7_75t_L             2.10  Y=(A) + (B) + (C) + (D) + (E);                               
+    PIN   A  UNKNOWN   1 999    24.48     0.00    24.48     0.00
+    PIN   B  UNKNOWN   1 999    26.38     0.00    26.38     0.00
+    PIN   C  UNKNOWN   1 999    27.91     0.00    27.91     0.00
+    PIN   D  UNKNOWN   1 999    28.91     0.00    28.91     0.00
+    PIN   E  UNKNOWN   1 999    29.30     0.00    29.30     0.00
+GATE XNOR2x1_ASAP7_75t_L           2.80  Y=(A * B) + (!A * !B);                                       
+    PIN   A  UNKNOWN   1 999    27.98     0.00    27.98     0.00
+    PIN   B  UNKNOWN   1 999    27.52     0.00    27.52     0.00
+GATE XNOR2x2_ASAP7_75t_L           2.57  Y=(A * B) + (!A * !B);                                       
+    PIN   A  UNKNOWN   1 999    27.98     0.00    27.98     0.00
+    PIN   B  UNKNOWN   1 999    27.52     0.00    27.52     0.00
+GATE XNOR2xp5_ASAP7_75t_L          2.10  Y=(A * B) + (!A * !B);                                       
+    PIN   A  UNKNOWN   1 999    27.98     0.00    27.98     0.00
+    PIN   B  UNKNOWN   1 999    27.52     0.00    27.52     0.00
+GATE XOR2x1_ASAP7_75t_L            2.80  Y=(A * !B) + (!A * B);                                       
+    PIN   A  UNKNOWN   1 999    27.81     0.00    27.81     0.00
+    PIN   B  UNKNOWN   1 999    27.55     0.00    27.55     0.00
+GATE XOR2x2_ASAP7_75t_L            2.57  Y=(A * !B) + (!A * B);                                       
+    PIN   A  UNKNOWN   1 999    27.81     0.00    27.81     0.00
+    PIN   B  UNKNOWN   1 999    27.55     0.00    27.55     0.00
+GATE XOR2xp5_ASAP7_75t_L           2.10  Y=(A * !B) + (!A * B);                                       
+    PIN   A  UNKNOWN   1 999    27.81     0.00    27.81     0.00
+    PIN   B  UNKNOWN   1 999    27.55     0.00    27.55     0.00

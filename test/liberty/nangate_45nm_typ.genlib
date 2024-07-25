@@ -1,0 +1,380 @@
+# The genlib library "NangateOpenCellLibrary.genlib" with 94 gates written by ABC on Mon Jun 17 16:11:36 2024
+GATE _const0_      0.00  z=CONST0;                                        
+GATE _const1_      0.00  z=CONST1;                                        
+GATE AND2_X1       1.06  ZN=(A1 & A2);                                    
+    PIN A1  UNKNOWN   1 999    31.65     0.00    31.65     0.00
+    PIN A2  UNKNOWN   1 999    33.08     0.00    33.08     0.00
+GATE AND2_X2       1.33  ZN=(A1 & A2);                                    
+    PIN A1  UNKNOWN   1 999    31.65     0.00    31.65     0.00
+    PIN A2  UNKNOWN   1 999    33.08     0.00    33.08     0.00
+GATE AND2_X4       2.39  ZN=(A1 & A2);                                    
+    PIN A1  UNKNOWN   1 999    31.65     0.00    31.65     0.00
+    PIN A2  UNKNOWN   1 999    33.08     0.00    33.08     0.00
+GATE AND3_X1       1.33  ZN=((A1 & A2) & A3);                             
+    PIN A1  UNKNOWN   1 999    36.59     0.00    36.59     0.00
+    PIN A2  UNKNOWN   1 999    39.01     0.00    39.01     0.00
+    PIN A3  UNKNOWN   1 999    40.03     0.00    40.03     0.00
+GATE AND3_X2       1.60  ZN=((A1 & A2) & A3);                             
+    PIN A1  UNKNOWN   1 999    36.59     0.00    36.59     0.00
+    PIN A2  UNKNOWN   1 999    39.01     0.00    39.01     0.00
+    PIN A3  UNKNOWN   1 999    40.03     0.00    40.03     0.00
+GATE AND3_X4       2.93  ZN=((A1 & A2) & A3);                             
+    PIN A1  UNKNOWN   1 999    36.59     0.00    36.59     0.00
+    PIN A2  UNKNOWN   1 999    39.01     0.00    39.01     0.00
+    PIN A3  UNKNOWN   1 999    40.03     0.00    40.03     0.00
+GATE AND4_X1       1.60  ZN=(((A1 & A2) & A3) & A4);                      
+    PIN A1  UNKNOWN   1 999    41.44     0.00    41.44     0.00
+    PIN A2  UNKNOWN   1 999    44.75     0.00    44.75     0.00
+    PIN A3  UNKNOWN   1 999    46.63     0.00    46.63     0.00
+    PIN A4  UNKNOWN   1 999    47.73     0.00    47.73     0.00
+GATE AND4_X2       1.86  ZN=(((A1 & A2) & A3) & A4);                      
+    PIN A1  UNKNOWN   1 999    41.44     0.00    41.44     0.00
+    PIN A2  UNKNOWN   1 999    44.75     0.00    44.75     0.00
+    PIN A3  UNKNOWN   1 999    46.63     0.00    46.63     0.00
+    PIN A4  UNKNOWN   1 999    47.73     0.00    47.73     0.00
+GATE AND4_X4       3.46  ZN=(((A1 & A2) & A3) & A4);                      
+    PIN A1  UNKNOWN   1 999    41.44     0.00    41.44     0.00
+    PIN A2  UNKNOWN   1 999    44.75     0.00    44.75     0.00
+    PIN A3  UNKNOWN   1 999    46.63     0.00    46.63     0.00
+    PIN A4  UNKNOWN   1 999    47.73     0.00    47.73     0.00
+GATE AOI21_X1      1.06  ZN=!(A | (B1 & B2));                             
+    PIN  A  UNKNOWN   1 999    35.45     0.00    35.45     0.00
+    PIN B1  UNKNOWN   1 999    30.05     0.00    30.05     0.00
+    PIN B2  UNKNOWN   1 999    33.36     0.00    33.36     0.00
+GATE AOI21_X2      1.86  ZN=!(A | (B1 & B2));                             
+    PIN  A  UNKNOWN   1 999    35.45     0.00    35.45     0.00
+    PIN B1  UNKNOWN   1 999    30.05     0.00    30.05     0.00
+    PIN B2  UNKNOWN   1 999    33.36     0.00    33.36     0.00
+GATE AOI21_X4      3.46  ZN=!(A | (B1 & B2));                             
+    PIN  A  UNKNOWN   1 999    35.45     0.00    35.45     0.00
+    PIN B1  UNKNOWN   1 999    30.05     0.00    30.05     0.00
+    PIN B2  UNKNOWN   1 999    33.36     0.00    33.36     0.00
+GATE AOI22_X1      1.33  ZN=!((A1 & A2) | (B1 & B2));                     
+    PIN A1  UNKNOWN   1 999    32.84     0.00    32.84     0.00
+    PIN A2  UNKNOWN   1 999    36.11     0.00    36.11     0.00
+    PIN B1  UNKNOWN   1 999    41.03     0.00    41.03     0.00
+    PIN B2  UNKNOWN   1 999    44.50     0.00    44.50     0.00
+GATE AOI22_X2      2.39  ZN=!((A1 & A2) | (B1 & B2));                     
+    PIN A1  UNKNOWN   1 999    32.84     0.00    32.84     0.00
+    PIN A2  UNKNOWN   1 999    36.11     0.00    36.11     0.00
+    PIN B1  UNKNOWN   1 999    41.03     0.00    41.03     0.00
+    PIN B2  UNKNOWN   1 999    44.50     0.00    44.50     0.00
+GATE AOI22_X4      4.52  ZN=!((A1 & A2) | (B1 & B2));                     
+    PIN A1  UNKNOWN   1 999    32.84     0.00    32.84     0.00
+    PIN A2  UNKNOWN   1 999    36.11     0.00    36.11     0.00
+    PIN B1  UNKNOWN   1 999    41.03     0.00    41.03     0.00
+    PIN B2  UNKNOWN   1 999    44.50     0.00    44.50     0.00
+GATE AOI211_X1     1.33  ZN=!(((C1 & C2) | B) | A);                       
+    PIN  A  UNKNOWN   1 999    61.65     0.00    61.65     0.00
+    PIN  B  UNKNOWN   1 999    59.45     0.00    59.45     0.00
+    PIN C1  UNKNOWN   1 999    47.38     0.00    47.38     0.00
+    PIN C2  UNKNOWN   1 999    51.99     0.00    51.99     0.00
+GATE AOI211_X2     2.39  ZN=!(((C1 & C2) | B) | A);                       
+    PIN  A  UNKNOWN   1 999    61.65     0.00    61.65     0.00
+    PIN  B  UNKNOWN   1 999    59.45     0.00    59.45     0.00
+    PIN C1  UNKNOWN   1 999    47.38     0.00    47.38     0.00
+    PIN C2  UNKNOWN   1 999    51.99     0.00    51.99     0.00
+GATE AOI211_X4     2.93  ZN=!(!(!(((C1 & C2) | B) | A)));                 
+    PIN  A  UNKNOWN   1 999    61.65     0.00    61.65     0.00
+    PIN  B  UNKNOWN   1 999    59.45     0.00    59.45     0.00
+    PIN C1  UNKNOWN   1 999    47.38     0.00    47.38     0.00
+    PIN C2  UNKNOWN   1 999    51.99     0.00    51.99     0.00
+GATE AOI221_X1     1.60  ZN=!(((C1 & C2) | A) | (B1 & B2));               
+    PIN  A  UNKNOWN   1 999    63.89     0.00    63.89     0.00
+    PIN B1  UNKNOWN   1 999    68.74     0.00    68.74     0.00
+    PIN B2  UNKNOWN   1 999    72.63     0.00    72.63     0.00
+    PIN C1  UNKNOWN   1 999    51.88     0.00    51.88     0.00
+    PIN C2  UNKNOWN   1 999    56.85     0.00    56.85     0.00
+GATE AOI221_X2     2.93  ZN=!(((C1 & C2) | A) | (B1 & B2));               
+    PIN  A  UNKNOWN   1 999    63.89     0.00    63.89     0.00
+    PIN B1  UNKNOWN   1 999    68.74     0.00    68.74     0.00
+    PIN B2  UNKNOWN   1 999    72.63     0.00    72.63     0.00
+    PIN C1  UNKNOWN   1 999    51.88     0.00    51.88     0.00
+    PIN C2  UNKNOWN   1 999    56.85     0.00    56.85     0.00
+GATE AOI221_X4     3.46  ZN=!(!(!(((C1 & C2) | A) | (B1 & B2))));         
+    PIN  A  UNKNOWN   1 999    63.89     0.00    63.89     0.00
+    PIN B1  UNKNOWN   1 999    68.74     0.00    68.74     0.00
+    PIN B2  UNKNOWN   1 999    72.63     0.00    72.63     0.00
+    PIN C1  UNKNOWN   1 999    51.88     0.00    51.88     0.00
+    PIN C2  UNKNOWN   1 999    56.85     0.00    56.85     0.00
+GATE AOI222_X1     2.13  ZN=!(((A1 & A2) | (B1 & B2)) | (C1 & C2));       
+    PIN A1  UNKNOWN   1 999    55.98     0.00    55.98     0.00
+    PIN A2  UNKNOWN   1 999    60.43     0.00    60.43     0.00
+    PIN B1  UNKNOWN   1 999    70.49     0.00    70.49     0.00
+    PIN B2  UNKNOWN   1 999    75.29     0.00    75.29     0.00
+    PIN C1  UNKNOWN   1 999    76.87     0.00    76.87     0.00
+    PIN C2  UNKNOWN   1 999    81.56     0.00    81.56     0.00
+GATE AOI222_X2     3.72  ZN=!(((A1 & A2) | (B1 & B2)) | (C1 & C2));       
+    PIN A1  UNKNOWN   1 999    55.98     0.00    55.98     0.00
+    PIN A2  UNKNOWN   1 999    60.43     0.00    60.43     0.00
+    PIN B1  UNKNOWN   1 999    70.49     0.00    70.49     0.00
+    PIN B2  UNKNOWN   1 999    75.29     0.00    75.29     0.00
+    PIN C1  UNKNOWN   1 999    76.87     0.00    76.87     0.00
+    PIN C2  UNKNOWN   1 999    81.56     0.00    81.56     0.00
+GATE AOI222_X4     3.72  ZN=!(!(!(((A1 & A2) | (B1 & B2)) | (C1 & C2)))); 
+    PIN A1  UNKNOWN   1 999    55.98     0.00    55.98     0.00
+    PIN A2  UNKNOWN   1 999    60.43     0.00    60.43     0.00
+    PIN B1  UNKNOWN   1 999    70.49     0.00    70.49     0.00
+    PIN B2  UNKNOWN   1 999    75.29     0.00    75.29     0.00
+    PIN C1  UNKNOWN   1 999    76.87     0.00    76.87     0.00
+    PIN C2  UNKNOWN   1 999    81.56     0.00    81.56     0.00
+GATE BUF_X1        0.80  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE BUF_X2        1.06  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE BUF_X4        1.86  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE BUF_X8        3.46  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE BUF_X16       6.65  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE BUF_X32      13.03  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE CLKBUF_X1     0.80  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE CLKBUF_X2     1.06  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE CLKBUF_X3     1.33  Z=A;                                             
+    PIN  A  UNKNOWN   1 999    28.46     0.00    28.46     0.00
+GATE FA_X1         4.26  CO=((A & B) | (CI & (A | B)));                   
+    PIN  A  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN CI  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE FA_X1         4.26  S=(CI ^ (A ^ B));                                
+    PIN  A  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN  B  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+    PIN CI  UNKNOWN   1 999     1.00     0.00     1.00     0.00
+GATE HA_X1         2.66  CO=(A & B);                                      
+    PIN  A  UNKNOWN   1 999    31.65     0.00    31.65     0.00
+    PIN  B  UNKNOWN   1 999    33.08     0.00    33.08     0.00
+GATE HA_X1         2.66  S=(A ^ B);                                       
+    PIN  A  UNKNOWN   1 999    63.80     0.00    63.80     0.00
+    PIN  B  UNKNOWN   1 999    66.64     0.00    66.64     0.00
+GATE INV_X1        0.53  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE INV_X2        0.80  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE INV_X4        1.33  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE INV_X8        2.39  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE INV_X16       4.52  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE INV_X32       8.78  ZN=!A;                                           
+    PIN  A  UNKNOWN   1 999    15.23     0.00    15.23     0.00
+GATE MUX2_X1       1.86  Z=((S & B) | (A & !S));                          
+    PIN  A  UNKNOWN   1 999    48.95     0.00    48.95     0.00
+    PIN  B  UNKNOWN   1 999    47.66     0.00    47.66     0.00
+    PIN  S  UNKNOWN   1 999    65.58     0.00    65.58     0.00
+GATE MUX2_X2       2.39  Z=((S & B) | (A & !S));                          
+    PIN  A  UNKNOWN   1 999    48.95     0.00    48.95     0.00
+    PIN  B  UNKNOWN   1 999    47.66     0.00    47.66     0.00
+    PIN  S  UNKNOWN   1 999    65.58     0.00    65.58     0.00
+GATE NAND2_X1      0.80  ZN=!(A1 & A2);                                   
+    PIN A1  UNKNOWN   1 999    20.12     0.00    20.12     0.00
+    PIN A2  UNKNOWN   1 999    22.69     0.00    22.69     0.00
+GATE NAND2_X2      1.33  ZN=!(A1 & A2);                                   
+    PIN A1  UNKNOWN   1 999    20.12     0.00    20.12     0.00
+    PIN A2  UNKNOWN   1 999    22.69     0.00    22.69     0.00
+GATE NAND2_X4      2.39  ZN=!(A1 & A2);                                   
+    PIN A1  UNKNOWN   1 999    20.12     0.00    20.12     0.00
+    PIN A2  UNKNOWN   1 999    22.69     0.00    22.69     0.00
+GATE NAND3_X1      1.06  ZN=!((A1 & A2) & A3);                            
+    PIN A1  UNKNOWN   1 999    25.39     0.00    25.39     0.00
+    PIN A2  UNKNOWN   1 999    28.49     0.00    28.49     0.00
+    PIN A3  UNKNOWN   1 999    29.78     0.00    29.78     0.00
+GATE NAND3_X2      1.86  ZN=!((A1 & A2) & A3);                            
+    PIN A1  UNKNOWN   1 999    25.39     0.00    25.39     0.00
+    PIN A2  UNKNOWN   1 999    28.49     0.00    28.49     0.00
+    PIN A3  UNKNOWN   1 999    29.78     0.00    29.78     0.00
+GATE NAND3_X4      3.46  ZN=!((A1 & A2) & A3);                            
+    PIN A1  UNKNOWN   1 999    25.39     0.00    25.39     0.00
+    PIN A2  UNKNOWN   1 999    28.49     0.00    28.49     0.00
+    PIN A3  UNKNOWN   1 999    29.78     0.00    29.78     0.00
+GATE NAND4_X1      1.33  ZN=!(((A1 & A2) & A3) & A4);                     
+    PIN A1  UNKNOWN   1 999    29.95     0.00    29.95     0.00
+    PIN A2  UNKNOWN   1 999    33.75     0.00    33.75     0.00
+    PIN A3  UNKNOWN   1 999    35.85     0.00    35.85     0.00
+    PIN A4  UNKNOWN   1 999    37.18     0.00    37.18     0.00
+GATE NAND4_X2      2.39  ZN=!(((A1 & A2) & A3) & A4);                     
+    PIN A1  UNKNOWN   1 999    29.95     0.00    29.95     0.00
+    PIN A2  UNKNOWN   1 999    33.75     0.00    33.75     0.00
+    PIN A3  UNKNOWN   1 999    35.85     0.00    35.85     0.00
+    PIN A4  UNKNOWN   1 999    37.18     0.00    37.18     0.00
+GATE NAND4_X4      4.79  ZN=!(((A1 & A2) & A3) & A4);                     
+    PIN A1  UNKNOWN   1 999    29.95     0.00    29.95     0.00
+    PIN A2  UNKNOWN   1 999    33.75     0.00    33.75     0.00
+    PIN A3  UNKNOWN   1 999    35.85     0.00    35.85     0.00
+    PIN A4  UNKNOWN   1 999    37.18     0.00    37.18     0.00
+GATE NOR2_X1       0.80  ZN=!(A1 | A2);                                   
+    PIN A1  UNKNOWN   1 999    24.79     0.00    24.79     0.00
+    PIN A2  UNKNOWN   1 999    28.87     0.00    28.87     0.00
+GATE NOR2_X2       1.33  ZN=!(A1 | A2);                                   
+    PIN A1  UNKNOWN   1 999    24.79     0.00    24.79     0.00
+    PIN A2  UNKNOWN   1 999    28.87     0.00    28.87     0.00
+GATE NOR2_X4       2.39  ZN=!(A1 | A2);                                   
+    PIN A1  UNKNOWN   1 999    24.79     0.00    24.79     0.00
+    PIN A2  UNKNOWN   1 999    28.87     0.00    28.87     0.00
+GATE NOR3_X1       1.06  ZN=!((A1 | A2) | A3);                            
+    PIN A1  UNKNOWN   1 999    33.81     0.00    33.81     0.00
+    PIN A2  UNKNOWN   1 999    40.89     0.00    40.89     0.00
+    PIN A3  UNKNOWN   1 999    43.86     0.00    43.86     0.00
+GATE NOR3_X2       1.86  ZN=!((A1 | A2) | A3);                            
+    PIN A1  UNKNOWN   1 999    33.81     0.00    33.81     0.00
+    PIN A2  UNKNOWN   1 999    40.89     0.00    40.89     0.00
+    PIN A3  UNKNOWN   1 999    43.86     0.00    43.86     0.00
+GATE NOR3_X4       3.72  ZN=!((A1 | A2) | A3);                            
+    PIN A1  UNKNOWN   1 999    33.81     0.00    33.81     0.00
+    PIN A2  UNKNOWN   1 999    40.89     0.00    40.89     0.00
+    PIN A3  UNKNOWN   1 999    43.86     0.00    43.86     0.00
+GATE NOR4_X1       1.33  ZN=!(((A1 | A2) | A3) | A4);                     
+    PIN A1  UNKNOWN   1 999    43.00     0.00    43.00     0.00
+    PIN A2  UNKNOWN   1 999    53.64     0.00    53.64     0.00
+    PIN A3  UNKNOWN   1 999    59.86     0.00    59.86     0.00
+    PIN A4  UNKNOWN   1 999    62.81     0.00    62.81     0.00
+GATE NOR4_X2       2.39  ZN=!(((A1 | A2) | A3) | A4);                     
+    PIN A1  UNKNOWN   1 999    43.00     0.00    43.00     0.00
+    PIN A2  UNKNOWN   1 999    53.64     0.00    53.64     0.00
+    PIN A3  UNKNOWN   1 999    59.86     0.00    59.86     0.00
+    PIN A4  UNKNOWN   1 999    62.81     0.00    62.81     0.00
+GATE NOR4_X4       4.79  ZN=!(((A1 | A2) | A3) | A4);                     
+    PIN A1  UNKNOWN   1 999    43.00     0.00    43.00     0.00
+    PIN A2  UNKNOWN   1 999    53.64     0.00    53.64     0.00
+    PIN A3  UNKNOWN   1 999    59.86     0.00    59.86     0.00
+    PIN A4  UNKNOWN   1 999    62.81     0.00    62.81     0.00
+GATE OAI21_X1      1.06  ZN=!(A & (B1 | B2));                             
+    PIN  A  UNKNOWN   1 999    27.07     0.00    27.07     0.00
+    PIN B1  UNKNOWN   1 999    30.24     0.00    30.24     0.00
+    PIN B2  UNKNOWN   1 999    35.03     0.00    35.03     0.00
+GATE OAI21_X2      1.86  ZN=!(A & (B1 | B2));                             
+    PIN  A  UNKNOWN   1 999    27.07     0.00    27.07     0.00
+    PIN B1  UNKNOWN   1 999    30.24     0.00    30.24     0.00
+    PIN B2  UNKNOWN   1 999    35.03     0.00    35.03     0.00
+GATE OAI21_X4      3.46  ZN=!(A & (B1 | B2));                             
+    PIN  A  UNKNOWN   1 999    27.07     0.00    27.07     0.00
+    PIN B1  UNKNOWN   1 999    30.24     0.00    30.24     0.00
+    PIN B2  UNKNOWN   1 999    35.03     0.00    35.03     0.00
+GATE OAI22_X1      1.33  ZN=!((A1 | A2) & (B1 | B2));                     
+    PIN A1  UNKNOWN   1 999    32.49     0.00    32.49     0.00
+    PIN A2  UNKNOWN   1 999    37.22     0.00    37.22     0.00
+    PIN B1  UNKNOWN   1 999    38.64     0.00    38.64     0.00
+    PIN B2  UNKNOWN   1 999    43.33     0.00    43.33     0.00
+GATE OAI22_X2      2.39  ZN=!((A1 | A2) & (B1 | B2));                     
+    PIN A1  UNKNOWN   1 999    32.49     0.00    32.49     0.00
+    PIN A2  UNKNOWN   1 999    37.22     0.00    37.22     0.00
+    PIN B1  UNKNOWN   1 999    38.64     0.00    38.64     0.00
+    PIN B2  UNKNOWN   1 999    43.33     0.00    43.33     0.00
+GATE OAI22_X4      4.52  ZN=!((A1 | A2) & (B1 | B2));                     
+    PIN A1  UNKNOWN   1 999    32.49     0.00    32.49     0.00
+    PIN A2  UNKNOWN   1 999    37.22     0.00    37.22     0.00
+    PIN B1  UNKNOWN   1 999    38.64     0.00    38.64     0.00
+    PIN B2  UNKNOWN   1 999    43.33     0.00    43.33     0.00
+GATE OAI33_X1      1.86  ZN=!(((A1 | A2) | A3) & ((B1 | B2) | B3));       
+    PIN A1  UNKNOWN   1 999    43.20     0.00    43.20     0.00
+    PIN A2  UNKNOWN   1 999    50.42     0.00    50.42     0.00
+    PIN A3  UNKNOWN   1 999    53.46     0.00    53.46     0.00
+    PIN B1  UNKNOWN   1 999    56.95     0.00    56.95     0.00
+    PIN B2  UNKNOWN   1 999    64.59     0.00    64.59     0.00
+    PIN B3  UNKNOWN   1 999    67.74     0.00    67.74     0.00
+GATE OAI211_X1     1.33  ZN=!(((C1 | C2) & A) & B);                       
+    PIN  A  UNKNOWN   1 999    33.57     0.00    33.57     0.00
+    PIN  B  UNKNOWN   1 999    34.25     0.00    34.25     0.00
+    PIN C1  UNKNOWN   1 999    35.28     0.00    35.28     0.00
+    PIN C2  UNKNOWN   1 999    40.47     0.00    40.47     0.00
+GATE OAI211_X2     2.39  ZN=!(((C1 | C2) & A) & B);                       
+    PIN  A  UNKNOWN   1 999    33.57     0.00    33.57     0.00
+    PIN  B  UNKNOWN   1 999    34.25     0.00    34.25     0.00
+    PIN C1  UNKNOWN   1 999    35.28     0.00    35.28     0.00
+    PIN C2  UNKNOWN   1 999    40.47     0.00    40.47     0.00
+GATE OAI211_X4     4.52  ZN=!(((C1 | C2) & A) & B);                       
+    PIN  A  UNKNOWN   1 999    33.57     0.00    33.57     0.00
+    PIN  B  UNKNOWN   1 999    34.25     0.00    34.25     0.00
+    PIN C1  UNKNOWN   1 999    35.28     0.00    35.28     0.00
+    PIN C2  UNKNOWN   1 999    40.47     0.00    40.47     0.00
+GATE OAI221_X1     1.60  ZN=!(((C1 | C2) & A) & (B1 | B2));               
+    PIN  A  UNKNOWN   1 999    44.43     0.00    44.43     0.00
+    PIN B1  UNKNOWN   1 999    57.43     0.00    57.43     0.00
+    PIN B2  UNKNOWN   1 999    61.85     0.00    61.85     0.00
+    PIN C1  UNKNOWN   1 999    46.55     0.00    46.55     0.00
+    PIN C2  UNKNOWN   1 999    51.72     0.00    51.72     0.00
+GATE OAI221_X2     2.93  ZN=!(((C1 | C2) & A) & (B1 | B2));               
+    PIN  A  UNKNOWN   1 999    44.43     0.00    44.43     0.00
+    PIN B1  UNKNOWN   1 999    57.43     0.00    57.43     0.00
+    PIN B2  UNKNOWN   1 999    61.85     0.00    61.85     0.00
+    PIN C1  UNKNOWN   1 999    46.55     0.00    46.55     0.00
+    PIN C2  UNKNOWN   1 999    51.72     0.00    51.72     0.00
+GATE OAI221_X4     3.46  ZN=!(!(!(((C1 | C2) & A) & (B1 | B2))));         
+    PIN  A  UNKNOWN   1 999    44.43     0.00    44.43     0.00
+    PIN B1  UNKNOWN   1 999    57.43     0.00    57.43     0.00
+    PIN B2  UNKNOWN   1 999    61.85     0.00    61.85     0.00
+    PIN C1  UNKNOWN   1 999    46.55     0.00    46.55     0.00
+    PIN C2  UNKNOWN   1 999    51.72     0.00    51.72     0.00
+GATE OAI222_X1     2.13  ZN=!(((A1 | A2) & (B1 | B2)) & (C1 | C2));       
+    PIN A1  UNKNOWN   1 999    49.84     0.00    49.84     0.00
+    PIN A2  UNKNOWN   1 999    54.38     0.00    54.38     0.00
+    PIN B1  UNKNOWN   1 999    58.03     0.00    58.03     0.00
+    PIN B2  UNKNOWN   1 999    62.68     0.00    62.68     0.00
+    PIN C1  UNKNOWN   1 999    63.38     0.00    63.38     0.00
+    PIN C2  UNKNOWN   1 999    68.03     0.00    68.03     0.00
+GATE OAI222_X2     3.72  ZN=!(((A1 | A2) & (B1 | B2)) & (C1 | C2));       
+    PIN A1  UNKNOWN   1 999    49.84     0.00    49.84     0.00
+    PIN A2  UNKNOWN   1 999    54.38     0.00    54.38     0.00
+    PIN B1  UNKNOWN   1 999    58.03     0.00    58.03     0.00
+    PIN B2  UNKNOWN   1 999    62.68     0.00    62.68     0.00
+    PIN C1  UNKNOWN   1 999    63.38     0.00    63.38     0.00
+    PIN C2  UNKNOWN   1 999    68.03     0.00    68.03     0.00
+GATE OAI222_X4     3.72  ZN=!(!(!(((A1 | A2) & (B1 | B2)) & (C1 | C2)))); 
+    PIN A1  UNKNOWN   1 999    49.84     0.00    49.84     0.00
+    PIN A2  UNKNOWN   1 999    54.38     0.00    54.38     0.00
+    PIN B1  UNKNOWN   1 999    58.03     0.00    58.03     0.00
+    PIN B2  UNKNOWN   1 999    62.68     0.00    62.68     0.00
+    PIN C1  UNKNOWN   1 999    63.38     0.00    63.38     0.00
+    PIN C2  UNKNOWN   1 999    68.03     0.00    68.03     0.00
+GATE OR2_X1        1.06  ZN=(A1 | A2);                                    
+    PIN A1  UNKNOWN   1 999    35.17     0.00    35.17     0.00
+    PIN A2  UNKNOWN   1 999    38.72     0.00    38.72     0.00
+GATE OR2_X2        1.33  ZN=(A1 | A2);                                    
+    PIN A1  UNKNOWN   1 999    35.17     0.00    35.17     0.00
+    PIN A2  UNKNOWN   1 999    38.72     0.00    38.72     0.00
+GATE OR2_X4        2.39  ZN=(A1 | A2);                                    
+    PIN A1  UNKNOWN   1 999    35.17     0.00    35.17     0.00
+    PIN A2  UNKNOWN   1 999    38.72     0.00    38.72     0.00
+GATE OR3_X1        1.33  ZN=((A1 | A2) | A3);                             
+    PIN A1  UNKNOWN   1 999    44.38     0.00    44.38     0.00
+    PIN A2  UNKNOWN   1 999    51.12     0.00    51.12     0.00
+    PIN A3  UNKNOWN   1 999    53.75     0.00    53.75     0.00
+GATE OR3_X2        1.60  ZN=((A1 | A2) | A3);                             
+    PIN A1  UNKNOWN   1 999    44.38     0.00    44.38     0.00
+    PIN A2  UNKNOWN   1 999    51.12     0.00    51.12     0.00
+    PIN A3  UNKNOWN   1 999    53.75     0.00    53.75     0.00
+GATE OR3_X4        2.93  ZN=((A1 | A2) | A3);                             
+    PIN A1  UNKNOWN   1 999    44.38     0.00    44.38     0.00
+    PIN A2  UNKNOWN   1 999    51.12     0.00    51.12     0.00
+    PIN A3  UNKNOWN   1 999    53.75     0.00    53.75     0.00
+GATE OR4_X1        1.60  ZN=(((A1 | A2) | A3) | A4);                      
+    PIN A1  UNKNOWN   1 999    53.03     0.00    53.03     0.00
+    PIN A2  UNKNOWN   1 999    63.17     0.00    63.17     0.00
+    PIN A3  UNKNOWN   1 999    68.87     0.00    68.87     0.00
+    PIN A4  UNKNOWN   1 999    71.20     0.00    71.20     0.00
+GATE OR4_X2        1.86  ZN=(((A1 | A2) | A3) | A4);                      
+    PIN A1  UNKNOWN   1 999    53.03     0.00    53.03     0.00
+    PIN A2  UNKNOWN   1 999    63.17     0.00    63.17     0.00
+    PIN A3  UNKNOWN   1 999    68.87     0.00    68.87     0.00
+    PIN A4  UNKNOWN   1 999    71.20     0.00    71.20     0.00
+GATE OR4_X4        3.46  ZN=(((A1 | A2) | A3) | A4);                      
+    PIN A1  UNKNOWN   1 999    53.03     0.00    53.03     0.00
+    PIN A2  UNKNOWN   1 999    63.17     0.00    63.17     0.00
+    PIN A3  UNKNOWN   1 999    68.87     0.00    68.87     0.00
+    PIN A4  UNKNOWN   1 999    71.20     0.00    71.20     0.00
+GATE XNOR2_X1      1.60  ZN=!(A ^ B);                                     
+    PIN  A  UNKNOWN   1 999    52.00     0.00    52.00     0.00
+    PIN  B  UNKNOWN   1 999    56.37     0.00    56.37     0.00
+GATE XNOR2_X2      2.66  ZN=!(A ^ B);                                     
+    PIN  A  UNKNOWN   1 999    52.00     0.00    52.00     0.00
+    PIN  B  UNKNOWN   1 999    56.37     0.00    56.37     0.00
+GATE XOR2_X1       1.60  Z=(A ^ B);                                       
+    PIN  A  UNKNOWN   1 999    63.80     0.00    63.80     0.00
+    PIN  B  UNKNOWN   1 999    66.64     0.00    66.64     0.00
+GATE XOR2_X2       2.39  Z=(A ^ B);                                       
+    PIN  A  UNKNOWN   1 999    63.80     0.00    63.80     0.00
+    PIN  B  UNKNOWN   1 999    66.64     0.00    66.64     0.00
