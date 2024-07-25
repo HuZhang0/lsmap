@@ -1,0 +1,103 @@
+read_aiger c499.aig
+ps -a
+lut_mapping
+lut_resyn -nx
+ps -x
+exact_map
+read_genlib /home/hz/benchmarks/liberty/sky130_fd_sc_hd__tt_025C_1v80.genlib
+exact_map
+test -x
+quit
+read_aiger c499.aig
+test -a
+read_genlib /home/hz/benchmarks/liberty/sky130_fd_sc_hd__tt_025C_1v80.genlib
+test -a
+lut_mapping
+lut_resyn -nx
+exact_map
+test -x
+ps -x
+quit
+read_aiger c499.aig
+exact_map
+ps -x
+ps -a
+quit
+read_aiger c499.aig
+convert --aig_to_xmg
+ps -x
+read_aiger c499.aig
+lut_mapping
+lut_resyn -nx
+ps -x
+quit
+read_aiger c499.aig
+lut_mapping
+lut_resyn -nx
+ps -x
+exact_map
+quit
+read_aiger c17.aig
+lut_mapping -k 6
+ps -l
+lut_mapping -h
+lut_mapping -d
+ps -l
+lut_mapping -k 4
+ps -l
+read_aiger c1355.aig
+lut_mapping -k 6
+ps -l
+lut_mapping -d
+ps -l
+ps -a
+lut_mapping -k 4
+ps -l
+read_aiger c1908.aig
+ps -a
+lut_mapping -k 6
+ps -l
+lut_mapping -d
+ps -l
+lut_mapping -k 4
+ps -l
+read_aiger c2670.aig
+ps -a
+lut_mapping -k 6
+ps -l
+lut_mapping -d
+ps -l
+lut_mapping -k 4
+ps -l
+lut_mapping -d
+ps -l
+quit
+read_aiger c3540.aig
+lut_mapping -k 4
+ps -l
+lut_mapping -d
+ps -l
+read_aiger c432.aig
+ps -l
+ps -a
+lut_mapping -k 6
+ps -l
+lut_mapping -d
+ps -l
+lut_mapping -k 4
+ps -l
+read_aiger c499.aig
+ps -a
+lut_mapping -k 6
+ps -l
+lut_mapping -d
+ps -l
+lut_mapping -k 4
+ps -l
+quit
+read_aiger /home/lcl/benchmarks/aig/sqrt.aig;ps -a
+lut_mapping -k 2
+ps -l
+lut_mapping -k 4
+lut_mapping -a;ps -l
+quit

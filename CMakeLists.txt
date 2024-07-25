@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 3.8)
+project(lsmap)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+if(UNIX)
+  include(CheckCXXCompilerFlag)
+  check_cxx_compiler_flag("-fcolor-diagnostics" HAS_FCOLOR_DIAGNOSTICS)
+  if (HAS_FCOLOR_DIAGNOSTICS)
+     add_compile_options(-fcolor-diagnostics)
+    endif()
+    add_compile_options(-O3)
+endif()
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(PROJECT_MAIN_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
+file(GLOB project_main_source_files ${PROJECT_MAIN_DIR}/*.cpp)
+set(PROJECT_ALGORITHM_DIR "${PROJECT_MAIN_DIR}/core")
+file(GLOB project_algorithm_header_files ${PROJECT_ALGORITHM_DIR}/*.h)
+file(GLOB project_algorithm_source_files ${PROJECT_ALGORITHM_DIR}/*.cpp)
+set(PROJECT_ALGORITHM_DIR "${PROJECT_MAIN_DIR}/commands")
+file(GLOB project_algorithm_header_files ${PROJECT_ALGORITHM_DIR}/*.h)
+file(GLOB project_algorithm_source_files ${PROJECT_ALGORITHM_DIR}/*.cpp)
+
+add_subdirectory(lib)
+add_subdirectory(src)
