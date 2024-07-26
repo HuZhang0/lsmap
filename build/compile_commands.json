@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/AbcGlucose.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/AbcGlucose.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcsat.dir/Glucose.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/Glucose.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/Glucose.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcsat.dir/SimpSolver.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/SimpSolver.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/SimpSolver.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcsat.dir/satSolver.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/satSolver.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/satSolver.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcsat.dir/satStore.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/satStore.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat/satStore.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exor.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exor.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exor.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exorBits.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorBits.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorBits.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exorCubes.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorCubes.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorCubes.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exorLink.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorLink.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorLink.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exorList.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorList.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorList.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop",
+  "command": "/bin/clang++  -DABC_NO_USE_READLINE -DLIN64 -I/home/lcl/temp/lsmap/build/lib/mockturtle/lib/abcesop -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop  -g   -fcolor-diagnostics -O3 -W -Wall -Wextra -Wno-unknown-pragmas -Wno-gnu-anonymous-struct -Wno-nested-anon-types -w -std=gnu++17 -o CMakeFiles/libabcesop.dir/exorUtil.cpp.o -c /home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorUtil.cpp",
+  "file": "/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop/exorUtil.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/src",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DFMT_HEADER_ONLY -DLIN64 -DREADLINE_USE_READLINE -I/home/lcl/temp/lsmap/build/src -I/home/lcl/temp/lsmap/src -I/home/lcl/temp/lsmap/src/commands -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop -isystem /home/lcl/temp/lsmap/lib/alice/include -isystem /home/lcl/temp/lsmap/lib/alice/lib/cli11 -isystem /home/lcl/temp/lsmap/lib/alice/lib/fmt -isystem /home/lcl/temp/lsmap/lib/alice/lib/json -isystem /home/lcl/temp/lsmap/lib/mockturtle/include -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/kitty -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/lorina -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/rang -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/parallel_hashmap -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/percy -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/bill   -O0 -g2 -ggdb -w   -fcolor-diagnostics -O3 -Wno-unneeded-internal-declaration -pthread -std=gnu++17 -o CMakeFiles/lsmap.dir/lsmap.cpp.o -c /home/lcl/temp/lsmap/src/lsmap.cpp",
+  "file": "/home/lcl/temp/lsmap/src/lsmap.cpp"
+},
+{
+  "directory": "/home/lcl/temp/lsmap/build/src",
+  "command": "/bin/clang++  -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DFMT_HEADER_ONLY -DLIN64 -DREADLINE_USE_READLINE -I/home/lcl/temp/lsmap/build/src -I/home/lcl/temp/lsmap/src -I/home/lcl/temp/lsmap/src/commands -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcsat -I/home/lcl/temp/lsmap/lib/mockturtle/lib/abcesop -isystem /home/lcl/temp/lsmap/lib/alice/include -isystem /home/lcl/temp/lsmap/lib/alice/lib/cli11 -isystem /home/lcl/temp/lsmap/lib/alice/lib/fmt -isystem /home/lcl/temp/lsmap/lib/alice/lib/json -isystem /home/lcl/temp/lsmap/lib/mockturtle/include -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/kitty -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/lorina -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/rang -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/parallel_hashmap -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/percy -isystem /home/lcl/temp/lsmap/lib/mockturtle/lib/bill   -O0 -g2 -ggdb -w   -fcolor-diagnostics -O3 -Wno-unneeded-internal-declaration -pthread -std=gnu++17 -o CMakeFiles/lsmap.dir/core/misc.cpp.o -c /home/lcl/temp/lsmap/src/core/misc.cpp",
+  "file": "/home/lcl/temp/lsmap/src/core/misc.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/bin/clang++   -O0 -g2 -ggdb -w   CMakeFiles/lsmap.dir/lsmap.cpp.o CMakeFiles/lsmap.dir/core/misc.cpp.o  -o ../bin/lsmap  -lreadline -pthread ../lib/mockturtle/lib/abcsat/liblibabcsat.a ../lib/mockturtle/lib/abcesop/liblibabcesop.a 
